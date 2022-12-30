@@ -22,7 +22,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       - name: Lint code
-        run: npm run lint
+        run: npm run lint 
   test:
     runs-on: ubuntu-latest
     steps:
