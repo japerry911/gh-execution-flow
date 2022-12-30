@@ -8,6 +8,9 @@ on:
         required: false
         default: dist
         type: string
+    secrets:
+      some-secret:
+        required: true
 
 jobs:
   deploy:
